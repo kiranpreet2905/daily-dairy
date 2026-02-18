@@ -1,0 +1,31 @@
+##Date##=4-2-2026
+##Day##=wednesday
+Today's work
+Drupal installation steps
+1.Check System Requirements
+.Install XAMPP/WAMP (PHP, MySQL, Apache)
+.PHP 8.1+ recommended
+2.Download Drupal
+.Go to official website
+.Download latest version (example: Drupal 10)
+3.Extract the File
+.Extract the downloaded ZIP file
+.Copy the Drupal folder into htdocs (XAMPP)
+4.Create Database
+.Open http://localhost/phpmyadmin
+.Click New
+.Create a database (example: drupal_db)
+5.Run Installation
+.Open browser
+.Type: http://localhost/drupal-folder-name
+6.Select Language
+.Choose your preferred language
+7.Choose Installation Profile
+.Select Standard
+.Click Continue
+8.Database Configuration
+.Enter database name
+.Username: root
+.Password: (leave blank if using XAMPP)
+9.Site Configuration
+.En…
